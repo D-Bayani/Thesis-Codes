@@ -1,7 +1,8 @@
 # Thesis-Codes
 
 Thesis Title: Managing Uncertainty in Oncology Drug Assessments: Applications in Multiple Myeloma
-Author: Diana Bayani, PhD Candidate at NUS (Singapore)
+
+Author: Diana Bayani, PhD Candidate at NUS (Singapore) | dbayani@u.nus.edu
 
 
 _Instructions per chapter below:_
@@ -21,3 +22,7 @@ Patient-level data or pseudo patient-level data must be available for each trial
 
 **Chapter 7**
 The code for running a probabilistic sensitivity analysis on R using the partitioned survival model is presented below. For each scenario or scheme implemented, a different .csv file must be saved for parameter values, costs, and outcomes. The outputs may be uploaded onto https://savi.shef.ac.uk/SAVI/ to generate the EVPI/P-SUB outputs.
+
+
+History:
+10/25/2023: Codes uploaded
