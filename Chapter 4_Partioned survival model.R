@@ -312,12 +312,12 @@ trace.vrd$check                       <- trace.vrd$prog + trace.vrd$preprog + tr
 ##### COST INPUTS
 ## DRUG COSTS
 #Unit costs from hospital (minimum value)
-dc_dara           <- 7242.10
-dc_bort           <- 246.67
-dc_len            <- 47.61
-dc_dex            <- 1.50
+dc_dara           <- #cost#
+dc_bort           <- #cost#
+dc_len            <- #cost#
+dc_dex            <- #cost#
 dc_drdcycle       <- ((dc_len*21)+(dc_dex*4*4))/4 #Rd cost of DRd per week
-dc_vrdcycle       <- ((dc_len*14)+(dc_dex*2*8))/3 #Rd cost of VRd induction per week
+dc_vrdcycle       <- ((dc_len*21)+(dc_dex*2*8))/4 #Rd cost of VRd induction per week
 
 #Chemo administration and disease monitoring
 dc_admin          <- 184.02 #per visit
@@ -329,7 +329,7 @@ dc_drdc3_6        <- ((dc_dara+dc_admin)/4)+dc_drdcycle+dc_mgt
 dc_drdc7          <- ((dc_dara+dc_admin)/4)+dc_drdcycle+dc_mgt
 
 ##VRd
-dc_vrdind         <- ((((dc_bort*1.3*1.6)+dc_admin)*4)/3)+dc_vrdcycle+dc_mgt
+dc_vrdind         <- ((((dc_bort*1)+dc_admin)*4)/4)+dc_vrdcycle+dc_mgt
 dc_vrdmaint       <- ((dc_len*21)+(dc_dex*2*4))/4 #Rd maintenance
 
 
